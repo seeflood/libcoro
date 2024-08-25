@@ -1,8 +1,8 @@
 # libgo
 I want to write cpp code in a golang style.
 
-# Usage
-## chan + go
+## Usage
+### chan + GO
 See [example.cpp](example.cpp).
 
 ```C++
