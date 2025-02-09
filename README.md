@@ -33,10 +33,15 @@ int main() {
 }
 ```
 
+This API essentially provides a stackless coroutine.
+
 You can run it:
 
 ```shell
 g++ -std=c++17 example.cpp -o main && chmod +x main && ./main
 ```
 
-This API essentially provides a stackless coroutine.
+### atomic_value
+
+See [example_atomic.cpp](example_atomic.cpp)
+

@@ -2,6 +2,8 @@
 #include <iostream>
 #include <optional>
 
+using namespace libgo;
+
 class GeneratorChan : public chan {
 public:
   std::optional<int> GO(
